@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeightAdjust"
+    android:id="@+id/weight_adjust_activity_id">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="728dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/wa2mmbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Main Menu" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="39dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight Adjust"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:id="@+id/commuteTimeWeightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="Commute Time Weight:"
+            android:textColor="#050404"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/commuteTimeWeightSB"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="21dp" />
+
+        <TextView
+            android:id="@+id/yearlySalaryWeightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yearly Salary Weight:"
+            android:textColor="#020101"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/yearlySalaryWeightSB"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="17dp" />
+
+        <TextView
+            android:id="@+id/yearlyBonusWeightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Yearly Bonus Weight:"
+            android:textColor="#040303"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/yearlyBonusWeightSB"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/retirementBenefitsWeightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Retirement Benefits Weight:"
+            android:textColor="#070606"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/retirementBenefitsWeightSB"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <TextView
+            android:id="@+id/leaveTimeWeightTextView"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Leave Time Weight:"
+            android:textColor="#040303"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:id="@+id/leaveTimeWeightSB"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="72dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
